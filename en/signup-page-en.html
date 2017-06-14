@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Keywords" content="关键词一，关键词二">
+    <meta name="Description" content="网站描述内容">
+    <meta name="Author" content="Yvette Lau">
+    <meta name = "viewport" content = " width = device-width, initial-scale = 1 ">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    <script type="text/javascript" src = "../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src = "../js/bootstrap.min.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo-dark.ico" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/signup-page.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <title>註冊</title>
+</head>
+<body>
+    <a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
+    <div class="slideEvent">
+        <nav class="media_q">
+            <a href="main-page-en.html">
+                <img class="logo_color1" src="../img/logo-dark.ico" style="max-height: 35px;">
+            </a>
+            <a class="bk" href="plan-en.html">Plan</a>
+            <a class="bk" href="download-page-en.html">Downloads</a>
+            <a class="bk" role="button" id="hs">Help&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
+                <nav id="mq_hide">
+                  <a class="bk" href="faq-en.html">FAQ</a>
+                  <a class="bk" href="mac_guide-en.html">Mac Setup Guide</a>
+                  <a class="bk" href="windows_guide-en.html">Windows Setup Guide</a>
+                </nav>
+            <a class="bk" href="sign in-page-en.html">Sign In</a>
+            <a class="bk" href="signup-page-en.html">Sign Up</a>
+            <a class="bk" role="button" id="hs1">English<i class="fa fa-angle-down fa-1x"></i></a>
+                <nav id="mq_hide2">
+                  <a class="bk" href="../signup-page.html">中文（简体）</a>
+                  <a class="bk" href="../tr_zh/signup-page-trzh.html">中文（繁體）</a>
+                </nav>
+            <p id="hide_content">.</p>
+        </nav>
+    </div>
+    <header class="wrap">
+        <div class="glass"></div>
+        <div class="topRight">
+            <a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
+            <div id="logo">
+                <a href="main-page-en.html">
+                    <img src="../img/logo-light.png" style="background-size: 10%">
+                </a>
+            </div>
+            <div class="dropdown" id="dropdown1">
+                <ul>
+                    <li class="hx"><a href="plan-en.html">Plan</a></li>
+                    <li class="hx"><a href="download-page-en.html">Downloads</a></li>
+                    <li class="hx">
+                        <a id="help" role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >Help&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a> 
+                            <ul class="dropdown-menu hover0" id="box1" role="menu" aria-labelledby="drop1">
+                                <li><a href="faq-en.html">FAQ</a></li>
+                                <li><a href="mac_guide-en.html">Mac Setup Guide</a></li>
+                                <li><a href="windows_guide-en.html">Windows Setup Guide</a></li>
+                            </ul>
+                    </li>
+                    <li class="hx"><a href="sign in-page-en.html">Sign In</a></li>
+                    <li class="hx"><a href="signup-page-en.html">Sign Up</a></li>
+                    <li class="hx">
+                        <a role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >English&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
+                            <ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
+                                <li><a href="../signup-page.html">中文（简体）</a></li>
+                                <li><a href="../tr_zh/signup-page-trzh.html">中文（繁體）</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="signUp">
+        <h3 class="uppercase">CREATE ACCOUNT</h3>
+        <div class="alert alert-danger hide" role="alert" id="error_display"></div>
+        <div class="typein"><input type="text" name="register_email" id="register_email" placeholder="Email or ID" /></div>
+        <div class="typein"><input type="password" placeholder="Password" name="password" id="password" /></div>
+        <div class="typein"><input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password"  /></div>
+        <button type="submit" onClick="register_check()" id="register_button">CREATE ACCOUNT</button>
+        <p class="mb0">By clicking sign up you agree to our
+            <a href="terms-trzh.html">
+                Terms of Use
+            </a>
+              和
+            <a href="privacy-trzh.html">
+                Privacy Police.
+            </a>。
+        </p>
+    </div>    
+</body>
+<script type="text/javascript">
+    $(window).ready(function(){
+        // dropdown hover
+        $(".dropdown-menu").hover(function(){
+            $(this).removeClass("hover0"); 
+            $(this).stop(true,true).fadeIn('fast'); 
+        },function(){ 
+            $(this).addClass("hover0"); 
+            var menu_hover = $(this).parent().children(".dropdown-toggle"); 
+            var drop_box = $(this); 
+            setTimeout(function(){ 
+            if(menu_hover.hasClass("hover1")){
+                drop_box.stop(true,true).fadeOut('fast'); 
+            }
+            else{} 
+            },100); 
+        }); 
+        $(".dropdown-toggle").hover(function(){
+            $(this).removeClass("hover1"); 
+            $(this).parent().children(".dropdown-menu").stop(true,true).fadeIn('fast'); 
+            },function(){ 
+                var drop_box2 = $(this).parent().children(".dropdown-menu"); 
+                    setTimeout(function() { 
+                        if (drop_box2.hasClass("hover0")) {
+                            drop_box2.stop(true,true).fadeOut('fast'); 
+                        }
+                        else{} 
+                        },100); 
+                    $(this).addClass("hover1"); 
+            });
+            // media query slide event
+            $('.touch_bar').click(function(){
+                $('.slideEvent').slideToggle(200);
+                $('.slideEvent').css("position","fixed");
+            });
+            $('.touch_bar').click(function(){
+                $('.touch_bar').toggleClass("touch_bar1");
+            });
+            $('#hs').click(function(){
+                $('#mq_hide').slideToggle(200);
+            });
+            $('#hs1').click(function(){
+                $('#mq_hide2').slideToggle(200);
+            }); 
+    });
+</script>
+<script type="text/javascript">
+    function register_check(){
+        var reg_mail = document.getElementById("register_email").value;
+        var pwd = document.getElementById("password").value;
+        var confirm_pwd = document.getElementById("confirm_password").value;
+        var NONE_PWD = "Password cannot be empty";
+        var NONE_NEW_PWD = "New password cannot be empty";
+        var PWD_LESS_6 = "Password cannot be less than 6 characters";
+        var MISMACTH_PWD = "Two passwords do not match";
+        var NONE_USER = "Email cannot be empty";
+        var WRONG_PWD = "Incorrect email or password";
+        var CORRECT_EMAIL = "Please enter a valid email address";
+        if(reg_mail == '')
+          {
+            $("#error_display").html(NONE_USER);
+            $("#error_display").removeClass("hide");
+            $("#register_email").css('background-color','#f2f2f2');
+            $("#password").css('background-color','');
+            $("#invite_email").css('background-color','');
+            return false;
+          }
+        else if(!$("#register_email").val().match(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/))
+          {
+            $("#error_display").html(CORRECT_EMAIL);
+            $("#error_display").removeClass("hide");
+            $("#register_email").css('background-color','#f2f2f2');
+            $("#password").css('background-color','');
+            $("#invite_email").css('background-color','');
+            return false;
+          }
+        else if(pwd == '')
+          {
+            $("#register_email").css('background-color','');
+            $("#error_display").html(NONE_PWD);
+            $("#error_display").removeClass("hide");
+            $("#password").css('background-color','#f2f2f2');
+            $("#invite_email").css('background-color','');
+            return false;
+          }
+        else if($("#password").val().length < 6)
+          {
+            $("#register_email").css('background-color','');
+            $("#error_display").html(PWD_LESS_6);
+            $("#error_display").removeClass("hide");
+            $("#password").css('background-color','#f2f2f2');
+            $("#invite_email").css('background-color','');
+            return false;
+          }
+        else if(confirm_pwd != pwd)
+          {
+            $("#error_display").html(MISMACTH_PWD);
+            $("#new_password").css('background-color','');
+            $("#error_display").removeClass("hide");
+            $("#confirm_password").css('background-color','#f2f2f2');
+            return false;
+          }
+        }
+</script>
+</html>

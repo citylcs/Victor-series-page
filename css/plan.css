@@ -1,0 +1,473 @@
+		@font-face{
+        	font-family: 'PingFang SC Light';
+        	src: url(../font/pingfangxiti.ttf);
+      	}
+		body{
+			margin: 0;
+			padding: 0;
+		}
+/*------------------------------dropdown list style------------------------------*/
+		#dropdown1{
+			float: right;
+			padding: 20px 50px;
+		}
+		.dropdown li{
+	    	font-family: 'PingFang SC Light';
+	    	list-style: none;
+	    }
+	    .dropdown a{
+	    	color: #f2f2f2;
+	    	font: bold 14px 'PingFang SC Light';
+	    	text-decoration: none;
+	    }
+	    .dropdown-menu{
+	    	position: absolute;
+	    }
+	    .hx{
+	    	float: left;
+	    	padding-left: 30px;
+	    }
+	    #help{
+	    	margin-right: 58px;
+	    }
+	    #box1{
+	    	background-color: #333;
+	    	left: 120px;
+	    	position: absolute;
+	    	top: 40px;
+	    }
+	    #box1 a,#box2 a{
+	    	color: #f2f2f2;
+	    	font-weight: bold;
+	    }
+	    #box1 li :hover,#box2 li :hover{
+	    	background-color: #444;
+	    }
+	    #box2{
+	    	background-color: #333;
+	    	left: 480px;
+	    	position: absolute;
+	    	top: 40px;
+	    }
+/*------------------------------top style------------------------------*/
+		#logo{
+			background-repeat: no-repeat;
+			background-size: 40%;
+			height: 174px;
+			padding: 15px 50px;
+			position: absolute;
+			top: 0;
+			width: 100px;
+		}
+		#logo img{
+			max-height: 20%;
+			position: absolute;
+		}
+		.topRight{
+			background-color: #333;
+			height: 60px;
+			margin: 0;
+			opacity: 0.8;
+			position: absolute;
+			width: 100%;
+			z-index: 1001;
+		}
+		.mainTop{
+			background: rgba(0,0,0,0.2);
+			height: 295px;
+			width: 100%;
+		}
+		#mainTitle{
+			color: #f2f2f2;
+			font:  32px 'PingFang SC Light';
+			margin: 0 auto;
+			padding-top: 160px;
+			text-align: center;
+			width: 230px;
+		}
+/*------------------------------top4 style------------------------------*/
+		.top4{
+			background-color: #f2f2f2;
+			height: 1300px;
+			position: relative;
+			top: -20px;
+			width: 100%;
+		}
+		.top4_wrap{
+			height: 734px;
+			margin: 0 auto;
+			position: relative;
+			top: 96px;
+		}
+		.mainText3{
+			height: 32px;
+			margin-bottom: 80px;
+		}
+		.mainText3 h2{
+			color: #333;
+			font-family: 'PingFang SC Light';
+			text-align: center;
+		}
+		.plan1,.plan2,.plan3{
+			background-color: #fff;
+			display: block;
+			float: left;
+			height: 494px;
+			padding-top: 40px;
+			margin-left: 30px;
+			width: 360px;
+		}
+		.mittsu2{
+			margin: 0 auto;
+			width: 1250px;
+		}
+		.plan1 h3,.plan2 h3,.plan3 h3{
+			color: #333;
+			font: bold 16px 'PingFang SC Light';
+			position: relative;
+			text-align: center;
+			top: 0px;
+		}
+		.plan1 h4,.plan2 h4,.plan3 h4{
+			color: #e12a2f;
+			font: lighter 16px/105px 'PingFang SC Light';
+			position: relative;
+			text-align: center;
+		}
+		.plan1 h1,.plan2 h1,.plan3 h1{
+			color: #333;
+			font: 400 80px/80px 'PingFang SC Light';
+			text-align: center;
+		}
+		.buyPlan1 input[type="button"],.buyPlan2 input[type="button"],.buyPlan3 input[type="button"]{
+			color: #f2f2f2;
+			background: #333333;
+			border: 2px solid #f2f2f2;
+			font: bold 12px 'PingFang SC Light';
+			height: 50px;
+			width: 200px;
+		}
+		.buyPlan1,.buyPlan2,.buyPlan3{
+			width: 200px;
+			margin: 0 auto;
+		}
+		.plan1 p,.plan2 p,.plan3 p{
+			color: #888;
+			font: bold 12px/37px 'PingFang SC Light';
+			text-align: center;
+		}
+		.p_wrap{
+			height: 494px;
+		}
+		.fuelUp{
+			margin: 80px auto 0;
+			width: 120px;
+		}
+		.fuelUp a{
+			color: #333;
+			font: bold 16px 'PingFang SC Light';
+			text-decoration: none;
+		}
+		.gray{
+			color: #444;
+			font: bold 18px 'PingFang SC Light';
+			margin: 0 auto;
+			padding-bottom: 60px;
+			width: 400px;
+		}
+		.fuelUp{
+			background-color: #f2f2f2;
+			height: 314px;
+			width: 1170px;
+		}
+		.fLeft,.fBuy{
+			display: inline-block;
+		}
+		.fLeft{
+			background-color: #f2f2f2;
+			height: 188px;
+			left: 200px;
+			top: 0px;
+			position: relative;
+			width: 488px;
+		}
+		.fBuy{
+			background-color: #fff;
+			bottom: 0;
+			height: 314px;
+			left: 175px;
+			position: relative;
+			width: 360px;
+		}
+		.fTitle{
+			color: #333;
+			font: lighter 32px/66px 'PingFang SC Light';
+		}
+		.explan{
+			color: #888;
+			font: bold 15px/30px 'PingFang SC Light';
+		}
+		.fBuy p{
+			color: #333;
+			font: bold 15px 'PingFang SC Light';
+			text-align: center;
+			padding-top: 56px;
+		}
+		.fBuy h2{
+			color: #333;
+			font: lighter 80px/120px 'PingFang SC Light';
+			text-align: center;
+		}
+		.buy50g{
+			color: #f2f2f2;
+			background-color: #333;
+			border: none;
+			display: block;
+			height: 50px;
+			margin: 0 auto;
+			width: 200px;
+		}
+/*------------------------------foot style------------------------------*/
+		.foot{
+			bottom: -566px;
+			height: 260px;
+			position: relative;
+			width: 100%;
+			z-index: 99;
+		}
+		.mr{
+			background: cover;
+			background: rgba(0,0,0,0.3);
+			bottom: 0px;
+			height: 260px;
+			position: absolute;
+			width: 100%;
+			z-index: -1;
+		}
+		.service{
+			height: 20px;
+			list-style: none;
+			margin: 0 auto;
+			padding-top: 78px;
+			width: 300px;
+		}
+		.service li{
+			color: #f2f2f2;
+			float: left;
+			font: bold 11px 'PingFang SC Light';
+			margin-left: 18px;
+		}
+		.service a{
+			color: #f2f2f2;
+			text-align: center;
+			text-decoration: none;
+		}
+		.service :visited{
+			color: #f2f2f2;
+		}
+		.footer{
+			font-weight: bold;
+			height: 20px;
+			margin: 0 auto;
+			width: 400px;
+		}
+		.footer p{
+			color: #f2f2f2;
+			font: bold 11px 'PingFang SC Light';
+			padding-top: 75px;
+			text-align: center;
+		}
+/*------------------------------moblie menu------------------------------*/
+		.slideEvent{
+			display: none;
+			background-color: #f2f2f2;
+			position: absolute;
+			width: 100%;
+			z-index: 1002;
+		}
+		.bk{
+			color: #333;
+			display: block;
+			font: bold 16px 'PingFang SC Light';
+			padding: 0 0 15px 100px;
+		}
+		img.logo_color1{
+			margin: 15px 50px;
+		}
+		#mq_hide{
+			background-color: #333;
+			display: none;
+			height: 100px;
+			left: 120px;
+			position: relative;
+			width: 200px;
+		}
+		#mq_hide a{
+			color: #f2f2f2;
+			padding: 5px 0 5px 18px;
+		}
+		#mq_hide2{
+			background-color: #333;
+			display: none;
+			height: 100px;
+			left: 120px;
+			position: relative;
+			width: 200px;
+		}
+		#mq_hide2 a{
+			color: #f2f2f2;
+			padding: 13px 0 14px 18px;
+		}
+		#hide_content{
+			color: #f2f2f2;
+			margin: 0;
+			padding: 12px 0;
+		}
+/*------------------------------moblie touch bar------------------------------*/
+		.touch_bar{
+			color: #f2f2f2;
+			display: none;
+			float: right;
+			position: relative;
+			right: 20px;
+			top: 20px;
+			z-index: 1003;
+		}
+		.touch_bar1{
+			color: #333;
+			display: none;
+			float: right;
+			position: fixed;
+			right: 20px;
+			top: 20px;
+		}
+/*------------------------------Media Query------------------------------*/	
+		@media screen and (max-width:1188px){
+			.plan3{
+				position: relative;
+				right: 570px;
+				top: 520px;
+			}
+			.fuelUp{
+				position: relative;
+				top: 480px;
+				width: 700px;
+			}
+			.p_wrap{
+				width: 800px;
+				margin: 0 auto;
+			}
+			.foot{
+				position: relative;
+				top: 980px;
+			}
+			.top4{
+				height: 1713px;
+			}
+			.fLeft{
+				margin: 0 auto;
+				width: 345px;
+			}
+			.fTitle,.explan{
+				text-align: center;
+			}
+			.top4{
+				height: 2033px;
+			}
+			.foot{
+				position: relative;
+				top: 1300px;
+			}
+		}
+		@media screen and (max-width:999px){
+			.dropdown{
+				display: none;
+			}
+			.touch_bar{
+				display: block;
+			}	
+		}
+		@media screen and (max-width:818px){
+			
+			.p_wrap{
+				width: 100%;
+			}
+			.mittsu2{
+				width: 100%;
+			}
+			
+			.plan1{
+				width: 90%;
+			}
+			.plan2{
+				position: relative;
+				top: 30px;
+				width: 90%;
+			}
+			.plan3{
+				left: 0;
+				position: relative;
+				top: 60px;
+				width: 90%;
+				z-index: 10;
+			}
+			.mr{
+				position: relative;
+				top: 729px;
+			}
+			.fuelUp{
+				width: 100%;
+			}
+			.fLeft{
+				left: 30px;
+				position: relative;
+				top: -320px;
+				width: 90%;
+			}
+			.fBuy{
+				left: 30px;
+				position: relative;
+				top: -290px;
+				width: 90%;
+				z-index: 999;
+			}
+			.top4{
+				height: 2763px;
+			}
+			.mfoot{
+				margin-left: 100px;
+				position: relative;
+				top: -70px;
+				width: 200px;
+			}
+
+		}
+		@media screen and (max-width:418px){
+			.footer{
+				width: 100%;
+			}
+			.foot{
+				width: 100%;
+			}
+			.gray{
+				width: 100%;
+			}
+			.plan1{
+				margin-left: 15px;
+			}
+			.plan2{
+				margin-left: 15px;;
+			}
+			.plan3{
+				margin-left: 15px;
+			}
+			.fLeft{
+				left: 15px;
+			}
+			.fBuy{
+				left: 15px;
+			}
+			.mfoot{
+				margin-left: 90px;
+			}
+		}

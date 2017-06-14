@@ -1,0 +1,220 @@
+		@font-face{
+        	font-family: 'PingFang SC Light';
+        	src: url(../font/pingfangxiti.ttf);
+      	}
+		body{
+			margin: 0;
+			padding: 0;
+			height: 900px;
+		}
+/*------------------------------top glass------------------------------*/
+		.wrap{
+			height: 900px;
+			width: 100%;
+		}
+		.glass{
+			background: url(../img/morig.png);
+			background-size: cover;
+			height: 100%;
+			position: absolute;
+			width: 100%;
+			z-index: -1;
+		}
+/*------------------------------top menu------------------------------*/	
+		#logo{
+			background-repeat: no-repeat;
+			background-size: 40%;
+			height: 174px;
+			padding: 15px 50px;
+			position: absolute;
+			top: 0;
+			width: 100px;
+		}
+		.topRight{
+			background-color: #333;
+			height: 60px;
+			margin: 0;
+			opacity: 0.8;
+			position: absolute;
+			width: 100%;
+			z-index: 1001;
+		}
+		.hx{
+			float: left;
+			padding-left: 30px;
+		}
+		ul li{
+			list-style: none;
+		}
+		#help{
+			margin-right: 50px;
+		}
+		.dropdown a{
+			color: #f2f2f2;
+			font: bold 14px 'PingFang SC Light';
+		}
+		#dropdown1{
+			position: absolute;
+			right: 50px;
+			top: 20px;
+		}
+		#logo img{
+			max-height: 20%;
+			position: absolute;
+		}
+		#box1{
+	    	position: absolute;
+	    	left: 80px;
+	    	top: 40px;
+	    	background-color: #333;
+	    }
+	    #box1 a,#box2 a{
+	    	color: #f2f2f2;
+	    	font-weight: bold;
+	    }
+	    #box1 li :hover,#box2 li :hover{
+	    	background-color: #444;
+	    }
+	    #box2{
+	    	background-color: #333;
+	    	left: 400px;
+	    	position: absolute;
+	    	top: 40px;
+	    }
+/*------------------------------sign up------------------------------*/
+		.signUp{
+			border: 1px solid #f2f2f2;
+			border-radius: 8px;
+			height: 450px;
+			margin: 0 auto;
+			top: -659px;
+			position: relative;
+			width: 555px;
+		}
+		.uppercase{
+			color: #f2f2f2;
+			font: 32px/75px 'PingFang SC Light';
+			text-align: center;
+		}
+		#register_email,#password,#confirm_password{
+			display: block;
+			font: bold 18px 'PingFang SC Light';
+			height: 50px;
+			margin: 0 auto;
+			padding-left: 20px;
+			width: 489px;
+		}
+		.typein{
+			margin-bottom: 25px;
+		}
+		#register_button{
+			color: #f2f2f2;
+			background-color: #333;
+			border: 1px solid #333;
+			border-radius: 8px;
+			font: 18px 'PingFang SC Light';
+			left: 32px;
+			height: 50px;
+			position: relative;
+			width: 489px;
+		}
+		.mb0{
+			color: #333;
+			font: bold 14px/70px 'PingFang SC Light';
+		    text-align: center;
+		}
+		.mb0 a{
+			color: #333;
+			font: bold 14px 'PingFang SC Light';
+			text-decoration: none;
+		}
+/*------------------------------moblie menu------------------------------*/
+		.slideEvent{
+			display: none;
+			background-color: #f2f2f2;
+			position: absolute;
+			width: 100%;
+			z-index: 1002;
+		}
+		.bk{
+			color: #333;
+			display: block;
+			font: bold 16px 'PingFang SC Light';
+			padding: 0 0 15px 100px;
+		}
+		img.logo_color1{
+			margin: 15px 50px;
+		}
+		#mq_hide{
+			background-color: #333;
+			display: none;
+			height: 100px;
+			left: 120px;
+			position: relative;
+			width: 200px;
+		}
+		#mq_hide a{
+			color: #f2f2f2;
+			padding: 5px 0 5px 18px;
+		}
+		#mq_hide2{
+			background-color: #333;
+			display: none;
+			height: 100px;
+			left: 120px;
+			position: relative;
+			width: 200px;
+		}
+		#mq_hide2 a{
+			color: #f2f2f2;
+			padding: 13px 0 14px 18px;
+		}
+		#hide_content{
+			color: #f2f2f2;
+			margin: 0;
+			padding: 12px 0;
+		}
+/*------------------------------moblie touch bar------------------------------*/
+		.touch_bar{
+			color: #f2f2f2;
+			display: none;
+			float: right;
+			position: relative;
+			right: 20px;
+			top: 20px;
+			z-index: 1003;
+		}
+		.touch_bar1{
+			color: #333;
+			display: none;
+			float: right;
+			position: fixed;
+			right: 20px;
+			top: 20px;
+		}
+/*------------------------------Media Query------------------------------*/	
+		@media screen and (max-width:999px){
+			.dropdown{
+				display: none;
+			}
+			.touch_bar{
+				display: block;
+			}
+		}
+		@media screen and (max-width:780px){
+			.signUp{
+				position: relative;
+				top: -800px;
+			}
+			.signUp,#register_email,#password,#confirm_password,#register_button{
+				width: 90%;
+			}
+			#register_button{
+				left: 15px;
+			}
+		}
+		@media screen and (max-width:440px){
+			.mb0,.mb0 a{
+				color: #f2f2f2;
+			}
+		}

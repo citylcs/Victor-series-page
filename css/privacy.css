@@ -1,0 +1,242 @@
+		@font-face{
+        	font-family: 'PingFang SC Light';
+        	src: url(../font/pingfangxiti.ttf);
+      	}
+		body{
+			margin: 0;
+			padding: 0;
+		}
+/*------------------------------dropdown list style------------------------------*/
+		#dropdown1{
+			float: right;
+			padding: 20px 50px;
+		}
+		.dropdown li{
+	    	font-family: 'PingFang SC Light';
+	    	list-style: none;
+	    }
+	    .dropdown a{
+	    	color: #f2f2f2;
+	    	font: bold 14px 'PingFang SC Light';
+	    	text-decoration: none;
+	    }
+	    .dropdown-menu{
+	    	position: absolute;
+	    }
+	    .hx{
+	    	float: left;
+	    	padding-left: 30px;
+	    }
+	    #help{
+	    	margin-right: 58px;
+	    }
+	    #box1{
+	    	background-color: #333;
+	    	left: 120px;
+	    	position: absolute;
+	    	top: 40px;
+	    }
+	    #box1 a,#box2 a{
+	    	color: #f2f2f2;
+	    	font-weight: bold;
+	    }
+	    #box1 li :hover,#box2 li :hover{
+	    	background-color: #444;
+	    }
+	    #box2{
+	    	background-color: #333;
+	    	left: 480px;
+	    	position: absolute;
+	    	top: 40px;
+	    }
+/*------------------------------top style------------------------------*/
+		#logo{
+			background-repeat: no-repeat;
+			background-size: 40%;
+			height: 174px;
+			padding: 15px 50px;
+			position: absolute;
+			top: 0;
+			width: 100px;
+		}
+		#logo img{
+			max-height: 20%;
+			position: absolute;
+		}
+		.topRight{
+			background-color: #333;
+			height: 60px;
+			margin: 0;
+			opacity: 0.8;
+			position: absolute;
+			width: 100%;
+			z-index: 1001;
+		}
+		.mainTop{
+			background: rgba(0,0,0,0.2);
+			height: 295px;
+			width: 100%;
+		}
+		#mainTitle{
+			color: #f2f2f2;
+			font: 400 32px 'PingFang SC Light';
+			margin: 0 auto;
+			padding-top: 160px;
+			width: 300px;
+			text-align: center;
+		}
+/*------------------------------mid content------------------------------*/
+		.midContent{
+			background-color: #f2f2f2;
+			width: 100%;
+		}
+		.one,.two,.three,.four,.five,.six{
+			margin: 0 auto;
+			line-height: 35px;
+			padding-bottom: 50px;
+			padding-top: 50px;
+			width: 500px;
+		}
+		.one h1,.two h1,.three h1,.four h1{
+			color: #333;
+			font: bold 24px/80px 'PingFang SC Light';
+		}
+		.one p,.two p,.three p,.four p{
+			color: #888;
+			font: bold 13px 'PingFang SC Light';
+		}
+/*------------------------------foot style------------------------------*/
+		.foot{
+			height: 260px;
+			position: relative;
+			width: 100%;
+			z-index: 99;
+		}
+		.mr{
+			background: cover;
+			background: rgba(0,0,0,0.3);
+			bottom: 0px;
+			height: 260px;
+			position: absolute;
+			width: 100%;
+			z-index: -1;
+		}
+		.service{
+			height: 20px;
+			list-style: none;
+			margin: 0 auto;
+			padding-top: 78px;
+			width: 300px;
+		}
+		.service li{
+			color: #f2f2f2;
+			float: left;
+			font:  bold 11px 'PingFang SC Light';
+			margin-left: 18px;
+		}
+		.service a{
+			color: #f2f2f2;
+			text-align: center;
+			text-decoration: none;
+		}
+		.service :visited{
+			color: #f2f2f2;
+		}
+		.footer{
+			font-weight: bold;
+			height: 20px;
+			margin: 0 auto;
+			width: 400px;
+		}
+		.footer p{
+			color: #f2f2f2;
+			font: bold 11px 'PingFang SC Light';
+			padding-top: 75px;
+			text-align: center;
+		}
+/*------------------------------moblie menu------------------------------*/
+		.slideEvent{
+			display: none;
+			background-color: #f2f2f2;
+			position: absolute;
+			width: 100%;
+			z-index: 1002;
+		}
+		.bk{
+			color: #333;
+			display: block;
+			font: bold 16px 'PingFang SC Light';
+			padding: 0 0 15px 100px;
+		}
+		img.logo_color1{
+			margin: 15px 50px;
+		}
+		#mq_hide{
+			background-color: #333;
+			display: none;
+			height: 100px;
+			left: 120px;
+			position: relative;
+			width: 200px;
+		}
+		#mq_hide a{
+			color: #f2f2f2;
+			padding: 5px 0 5px 18px;
+		}
+		#mq_hide2{
+			background-color: #333;
+			display: none;
+			height: 100px;
+			left: 120px;
+			position: relative;
+			width: 200px;
+		}
+		#mq_hide2 a{
+			color: #f2f2f2;
+			padding: 13px 0 14px 18px;
+		}
+		#hide_content{
+			color: #f2f2f2;
+			margin: 0;
+			padding: 12px 0;
+		}
+/*------------------------------moblie touch bar------------------------------*/
+		.touch_bar{
+			color: #f2f2f2;
+			display: none;
+			float: right;
+			position: relative;
+			right: 20px;
+			top: 20px;
+			z-index: 1003;
+		}
+		.touch_bar1{
+			color: #333;
+			display: none;
+			float: right;
+			position: fixed;
+			right: 20px;
+			top: 20px;
+		}
+/*------------------------------Media Query------------------------------*/	
+		@media screen and (max-width:999px){
+			.dropdown{
+				display: none;
+			}
+			.touch_bar{
+				display: block;
+			}
+		@media screen and (max-width:517px){
+			.one,.two,.three,.four,.five,.six{
+				width: 100%;
+			}
+			.mfoot{
+				width: 200px;
+			}
+			.footer{
+				width: 200px;
+			}
+			h1,p{
+				text-align: center;
+			}	
+		}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Keywords" content="关键词一，关键词二">
+    <meta name="Description" content="网站描述内容">
+    <meta name="Author" content="Yvette Lau">
+    <meta name = "viewport" content = " width = device-width, initial-scale = 1 ">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <script type="text/javascript" src = "js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src = "js/bootstrap.min.js"></script>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo-dark.ico" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/windows_guide.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<script src="js/parallax.js"></script>
+	<title>Windows设置指南</title>
+</head>
+<body>
+	<a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
+	<div class="slideEvent">
+		<nav class="media_q">
+			<a href="main-page.html">
+				<img class="logo_color1" src="img/logo-dark.ico" style="max-height: 35px;">
+			</a>
+			<a class="bk" href="plan.html">套餐</a>
+			<a class="bk" href="download-page.html">下载</a>
+			<a class="bk" role="button" id="hs">帮助&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
+			<nav id="mq_hide">
+				<a class="bk" href="faq.html">常见问题</a>
+				<a class="bk" href="mac_guide.html">Mac设置指南</a>
+				<a class="bk" href="windows_guide.html">Windows设置指南</a>
+			</nav>
+			<a class="bk" href="sign in-page.html">登入</a>
+			<a class="bk" href="signup-page.html">注册</a>
+			<a class="bk" role="button" id="hs1">中文（简体）<i class="fa fa-angle-down fa-1x"></i></a>
+			<nav id="mq_hide2">
+				<a class="bk" href="en/windows_guide-en.html">English</a>
+				<a class="bk" href="tr_zh/windows_guide-trzh.html">中文（繁体）</a>
+			</nav>
+			<p id="hide_content">.</p>
+		</nav>
+	</div>
+	<header class="mainTop" data-parallax="scroll" data-image-src="img/bookt.jpg" data-speed="0.5">
+		<div class="topRight">
+			<a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
+			<div id="logo">
+				<a href="main-page.html">
+					<img src="img/logo-light.png">
+				</a>
+			</div>
+			<div class="dropdown" id="dropdown1">
+				<ul>
+					<li class="hx"><a href="plan.html">套餐</a></li>
+					<li class="hx"><a href="download-page.html">下载</a></li>
+					<li class="hx">
+						<a id="help" role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >帮助&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a> 
+						<ul class="dropdown-menu hover0" id="box1" role="menu" aria-labelledby="drop1">
+							<li><a href="faq.html">常见问题</a></li>
+							<li><a href="mac_guide.html">Mac设置指南</a></li>
+							<li><a href="windows_guide.html">Windows设置指南</a></li>
+						</ul>
+					</li>
+					<li class="hx"><a href="sign in-page.html">登入</a></li>
+					<li class="hx"><a href="signup-page.html">注册</a></li>
+					<li class="hx">
+						<a role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >中文（简体）&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
+						<ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
+							<li><a href="en/windows_guide-en.html">English</a></li>
+							<li><a href="tr_zh/windows_guide-trzh.html">中文（繁体）</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p id="mainTitle"><i class="fa fa-windows fa-1x"></i>&nbsp;Windows设置指南</p>
+	</header>
+	<div class="midContent">
+		<div class="containter">
+			<p><a href="https://github.com/shadowsocks/shadowsocks-windows/releases">1.首先在这里下载Shadowsocks的Windows客户端</a></p>
+			<figure>
+				<p>2.从里面下载Shadowsocks-win-2.5.6.zip解压并运行Shadowsocks.exe 这个程序</p>
+				<img src="img/wg1.jpg">
+			</figure>
+			<figure>
+				<p>3.根据Victor提供的帐号信息，填写服务器地址（IP或者域名），端口，加密方式和密码，完成后点击确定</p>
+				<img src="img/wg2.jpg">
+			</figure>
+			<figure>
+				<p>4.右键点击任务栏左下角纸飞机图标，选择服务器</p>
+				<img src="img/wg3.jpg">
+			</figure>
+			<figure id="last">
+				<p>5.在系统代理模式当中可以选择工作模式，有三种模式，不经过代理，PAC模式（智能分流），全局模式（所有网站经过代理）</p>
+				<img src="img/wg4.jpg">
+			</figure>
+		</div>
+	</div>
+	<footer class="foot">
+		<div class="mr" data-parallax="scroll" data-image-src="img/bookf.jpg" data-speed="0.5"></div>
+		<ul class="service">
+			<li><a href="contact.html">联系我们</a></li>
+			<li><a href="terms.html">服务条款</a></li>
+			<li><a href="privacy.html">隐私政策</a></li>
+		</ul>
+		<div class="footer">
+			<p class="mfoot">Handcrafted by Victor © 2017</p>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+	$(window).ready(function(){
+		// dropdown hover
+		$(".dropdown-menu").hover(function(){
+			$(this).removeClass("hover0"); 
+			$(this).stop(true,true).fadeIn('fast'); 
+		},function(){ 
+			$(this).addClass("hover0"); 
+			var menu_hover = $(this).parent().children(".dropdown-toggle"); 
+			var drop_box = $(this); 
+			setTimeout(function(){ 
+			if(menu_hover.hasClass("hover1")){
+				drop_box.stop(true,true).fadeOut('fast'); 
+			}
+			else{} 
+			},100); 
+		}); 
+		$(".dropdown-toggle").hover(function(){
+			$(this).removeClass("hover1"); 
+			$(this).parent().children(".dropdown-menu").stop(true,true).fadeIn('fast'); 
+			},function(){ 
+				var drop_box2 = $(this).parent().children(".dropdown-menu"); 
+					setTimeout(function() { 
+						if (drop_box2.hasClass("hover0")) {
+							drop_box2.stop(true,true).fadeOut('fast'); 
+						}
+						else{} 
+			     		},100); 
+					$(this).addClass("hover1");	
+			});
+			// top menu event
+				var windowHeight = $(window).height();
+					$(window).scroll(function(){
+				var distance = windowHeight - $(window).scrollTop();
+					if(distance < 800){
+						$('.topRight').css("background-color","#333");
+						$('.topRight').css("position","fixed");
+					}
+					else{
+						$('.topRight').css("position","absolute");
+					}
+				});
+			// media query slide event
+			$('.touch_bar').click(function(){
+				$('.slideEvent').slideToggle(200);
+				$('.slideEvent').css("position","fixed");
+			});
+			$('.touch_bar').click(function(){
+				$('.touch_bar').toggleClass("touch_bar1");
+			});
+			$('#hs').click(function(){
+				$('#mq_hide').slideToggle(200);
+			});
+			$('#hs1').click(function(){
+				$('#mq_hide2').slideToggle(200);
+			});	
+	});
+</script>
+</html>
