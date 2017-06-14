@@ -264,4 +264,7 @@
 			.footer{
 				width: 200px;
 			}
+			figure p,#last{
+				margin: 0 30px;
+			}
 		}

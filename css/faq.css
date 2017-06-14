@@ -272,18 +272,27 @@
 				display: block;
 			}	
 		}
-		@media screen and (max-width:818px){
+		@media screen and (max-width:850px){
 			.mC{
 				width: 100%;
+			}
+			.pc p,.mC h1{
+				margin: 0 30px;
 			}
 		}
 		@media screen and (max-width:450px){
 			.ot_wrap{
-				padding-left: 130px;
+				padding: 0;
 				width: 100%;
 			}
+			.one,.two{
+				display: block;
+				padding: 0;
+				margin: 0 auto;
+			}
 			.mfoot{
-				width: 200px;
+				width: 100%;
+				text-align: center;
 			}
 			.footer{
 				width: 200px;

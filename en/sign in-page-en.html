@@ -151,14 +151,20 @@
            {
             $("#error_display").html(NONE_USER);
             $("#error_display").removeClass("hide");
+            $("#error_display").css("height","40px");
+            $("#error_display").css("margin","0");
+            $("#error_display").css("padding","10px");
             $("#email").css('background-color','#F2DEDE');
             $("#password").css('background-color','')
-               return false;
+            return false;
            }
           else if(pwd == '')
            {
             $("#email").css('background-color','')
             $("#error_display").html(NONE_PWD)
+            $("#error_display").css("height","40px");
+            $("#error_display").css("margin","0");
+            $("#error_display").css("padding","10px");
             $("#error_display").removeClass("hide");
             $("#password").css('background-color','#F2DEDE');
             return false;

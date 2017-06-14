@@ -4,12 +4,12 @@
       	}
 		body{
 			margin: 0;
+			height: 930px;
 			padding: 0;
-			height: 900px;
 		}
 /*------------------------------top glass------------------------------*/
 		.wrap{
-			height: 900px;
+			height: 930px;
 			width: 100%;
 		}
 		.glass{
@@ -111,7 +111,7 @@
 			padding-bottom: 20px;
 		}
 		form p{
-			color: #333;
+			color: #f2f2f2;
 			font: bold 14px 'PingFang SC Light';
 			padding: 20px 30px;
 			text-shadow: 2px;
@@ -128,7 +128,7 @@
 			width: 295px;
 		}
 		.forgot a,.no_id a{
-			color: #333;
+			color: #f2f2f2;
 			font: bold 14px 'PingFang SC Light';
 			text-decoration: none;
 		}
@@ -211,9 +211,8 @@
 			}
 		@media screen and (max-width:780px){
 			.login{
-				margin-left: 15px;
-				position: absolute;
-				top: 100px;
+				position: relative;
+				top: -430px;
 			}
 			.login,.login2,#email,#password{
 				width: 90%;
@@ -227,9 +226,7 @@
 			.text-left p{
 				color: #f2f2f2;
 			}
-		}
-		@media screen and (max-width:440px){
-			.forgot a,.no_id a{
-				color: #f2f2f2;
+			body,.wrap{
+				height: 510px;
 			}
 		}

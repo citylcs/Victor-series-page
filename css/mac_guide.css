@@ -226,6 +226,14 @@
 				display: block;
 			}	
 		}
+		@media screen and (max-width:700px){
+			.containter p{
+				margin: 0 30px;
+			}
+			figure img{
+				margin: 10px;
+			}
+		}
 		@media screen and (max-width:619px){
 			.containter{
 				width: 100%;
@@ -237,7 +245,6 @@
 				width: 200px;
 			}
 			figure img{
-				margin: 0 auto;
 				padding-left: 15px;
 				width: 300px;
 			}

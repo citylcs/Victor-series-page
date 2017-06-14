@@ -239,4 +239,7 @@
 			h1,p{
 				text-align: center;
 			}
+			.midContent p{
+				margin: 0 30px;
+			}
 		}

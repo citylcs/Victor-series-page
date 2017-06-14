@@ -93,7 +93,7 @@
 		}
 		.uppercase{
 			color: #f2f2f2;
-			font: 32px/75px 'PingFang SC Light';
+			font: 32px/72px 'PingFang SC Light';
 			text-align: center;
 		}
 		#register_email,#password,#confirm_password{
@@ -119,12 +119,12 @@
 			width: 489px;
 		}
 		.mb0{
-			color: #333;
+			color: #f2f2f2;
 			font: bold 14px/70px 'PingFang SC Light';
 		    text-align: center;
 		}
 		.mb0 a{
-			color: #333;
+			color: #f2f2f2;
 			font: bold 14px 'PingFang SC Light';
 			text-decoration: none;
 		}
@@ -204,7 +204,7 @@
 		@media screen and (max-width:780px){
 			.signUp{
 				position: relative;
-				top: -800px;
+				top: -480px;
 			}
 			.signUp,#register_email,#password,#confirm_password,#register_button{
 				width: 90%;
@@ -212,9 +212,13 @@
 			#register_button{
 				left: 15px;
 			}
-		}
-		@media screen and (max-width:440px){
-			.mb0,.mb0 a{
-				color: #f2f2f2;
+			.wrap,body{
+				height: 550px;
+			}
+			.uppercase,.mb0{
+				line-height: 32px;
+			}
+			.mb0{
+				margin: 7px;
 			}
 		}

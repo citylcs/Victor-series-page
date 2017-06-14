@@ -98,7 +98,7 @@
 			width: 80px;
 		}
 		.top2Left{
-			padding-left: 280px;
+			padding-left: 180px;
 		}
 		.top2Mid{
 			padding-left: 197px;
@@ -418,7 +418,7 @@
 /*------------------------------Media Query------------------------------*/	
 		@media screen and (max-width:1517px){
 			.top2Left{
-				padding-left: 220px;
+				padding-left: 160px;
 			}
 			.top2Mid{
 				padding-left: 110px;
@@ -435,6 +435,17 @@
 				position: relative;
 				right: 200px;
 			}
+			.top2Left{
+				padding-left: 0;
+				margin: 0 80px 0 160px;
+			}
+			.top2Mid{
+				padding-left: 0;
+				margin-right: 120px;
+			}
+			.top2Right{
+				padding-left: 0;
+			}
 			.top4{
 				position: relative;
 				top: 676px;
@@ -443,18 +454,10 @@
 		@media screen and (max-width:1218px){
 			.top2Left{
 				padding: 0;
-				margin-left: 80px;
-			}
-			.top2Mid{
-				padding: 0;
 				margin-left: 40px;
 			}
-			.top2Right{
-				padding: 0;
-				margin-left: 80px;
-			}
 			.mittsu{
-				width: 700px;
+				width: 900px;
 			}
 			.mittsu2{
 				width: 100%;
@@ -467,12 +470,18 @@
 			}
 		}
 		@media screen and (max-width:1172px){
+			.small_wrap{
+				position: relative;
+				left: 200px;
+			}
 			.top2Left{
 				display: block;
+				position: relative;
+				left: 21px;
 			}
 			.top2Mid{
 				display: block;
-				left: 41px;
+				left: 0px;
 				margin: 0 auto;
 				position: relative;
 				top: 20px;
@@ -496,7 +505,6 @@
 			.mittsu2{
 				width: 800px;
 			}
-			
 			.dp_wrap{
 				position: relative;
 				right: 400px;
@@ -625,11 +633,5 @@
 			}
 			.mainText,.getButton{
 				bottom: 120px;
-			}
-			.mainText h2{
-				width: 250px;
-			}
-			.top{
-				width: 230px;
 			}
 		}
