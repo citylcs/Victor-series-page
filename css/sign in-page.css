@@ -8,10 +8,6 @@
 			padding: 0;
 		}
 /*------------------------------top glass------------------------------*/
-		.wrap{
-			height: 930px;
-			width: 100%;
-		}
 		.glass{
 			background: url(../img/morig.png);
 			background-size: cover;
@@ -82,12 +78,17 @@
 	    	top: 40px;
 	    }
 /*------------------------------login------------------------------*/
+		.container{
+			height: 650px;
+			width: 100%;
+		}
 		.login{
 			border: 1px solid #f2f2f2;
 			border-radius: 8px;
-			height: 481px;
+			min-height: 70%;
+			max-height: 80%;
 			margin: 0 auto;
-			top: -659px;
+			top: 200px;
 			position: relative;
 			width: 360px;
 		}
@@ -134,8 +135,9 @@
 		}
 		.forgot,.no_id{
 			margin: 0 auto;
-			padding-top: 30px;
-			width: 130px;
+			padding: 30px 0 10px;
+			width: 160px;
+			text-align: center;
 		}
 /*------------------------------moblie menu------------------------------*/
 		.slideEvent{
@@ -212,7 +214,7 @@
 		@media screen and (max-width:780px){
 			.login{
 				position: relative;
-				top: -430px;
+				top: 70px;
 			}
 			.login,.login2,#email,#password{
 				width: 90%;
@@ -223,10 +225,12 @@
 			#email,#password{
 				width: 90%;
 			}
-			.text-left p{
-				color: #f2f2f2;
+		}
+		@media screen and (max-width:650px){
+			.title1{
+				font: 28px/20px 'PingFang SC Light';
 			}
-			body,.wrap{
-				height: 510px;
+			#email,#password{
+				height: 40px;
 			}
 		}

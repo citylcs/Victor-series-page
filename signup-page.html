@@ -43,55 +43,55 @@
               <p id="hide_content">.</p>
           </nav>
       </div>
-      <header class="wrap">
-          <div class="glass"></div>
-    		    <div class="topRight">
-                <a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
-                <div id="logo">
-        				<a href="main-page.html">
-      				      <img src="img/logo-light.png" style="background-size: 10%">
-      				  </a>
-  			    </div>
-            <div class="dropdown" id="dropdown1">
-  				      <ul>
-                    <li class="hx"><a href="plan.html">套餐</a></li>
-          					<li class="hx"><a href="download-page.html">下载</a></li>
-          					<li class="hx"><a id="help" role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >帮助&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a> 
-            						<ul class="dropdown-menu hover0" id="box1" role="menu" aria-labelledby="drop1">
-              							<li><a href="faq.html">常见问题</a></li>
-              							<li><a href="mac_guide.html">Mac设置指南</a></li>
-              							<li><a href="windows_guide.html">Windows设置指南</a></li>
-    						        </ul>
-  					        </li>
-          					<li class="hx"><a href="sign in-page.html">登入</a></li>
-          					<li class="hx"><a href="signup-page.html">注册</a></li>
-          					<li class="hx"><a role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >中文（简体）&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
-  						          <ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
-              							<li><a href="en/signup-page-en.html">English</a></li>
-              							<li><a href="tr_zh/signup-page-trzh.html">中文（繁体）</a></li>
-  						          </ul>
-                    </li>
-  				      </ul>
-            </div>
+      <div class="glass"></div>
+		    <div class="topRight">
+            <a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
+            <div id="logo">
+    				<a href="main-page.html">
+  				      <img src="img/logo-light.png" style="background-size: 10%">
+  				  </a>
 		    </div>
-    </header>
-    <div class="signUp">
-        <h3 class="uppercase">创建账户</h3>
-        <div class="alert alert-danger hide" role="alert" id="error_display"></div>
-        <div class="typein"><input type="text" name="register_email" id="register_email" placeholder="邮箱或ID" /></div>
-        <div class="typein"><input type="password" placeholder="密码" name="password" id="password" /></div>
-        <div class="typein"><input type="password" name="confirm_password" id="confirm_password" placeholder="确认密码"  /></div>
-        <button type="submit" onClick="register_check()" id="register_button">创建账户</button>
-        <p class="mb0">点击注册，即表示您同意我们的
-            <a href="terms.html">
-                《服务条款》
-            </a>
-            	和
-            <a href="privacy.html">
-                《隐私政策》
-            </a>。
-        </p>
-    </div>    
+        <div class="dropdown" id="dropdown1">
+			      <ul>
+                <li class="hx"><a href="plan.html">套餐</a></li>
+      					<li class="hx"><a href="download-page.html">下载</a></li>
+      					<li class="hx"><a id="help" role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >帮助&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a> 
+        						<ul class="dropdown-menu hover0" id="box1" role="menu" aria-labelledby="drop1">
+          							<li><a href="faq.html">常见问题</a></li>
+          							<li><a href="mac_guide.html">Mac设置指南</a></li>
+          							<li><a href="windows_guide.html">Windows设置指南</a></li>
+						        </ul>
+				        </li>
+      					<li class="hx"><a href="sign in-page.html">登入</a></li>
+      					<li class="hx"><a href="signup-page.html">注册</a></li>
+      					<li class="hx"><a role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >中文（简体）&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
+					          <ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
+          							<li><a href="en/signup-page-en.html">English</a></li>
+          							<li><a href="tr_zh/signup-page-trzh.html">中文（繁体）</a></li>
+					          </ul>
+                </li>
+			      </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="signUp">
+            <h3 class="uppercase">创建账户</h3>
+            <div class="alert alert-danger hide" role="alert" id="error_display"></div>
+            <div class="typein"><input type="text" name="register_email" id="register_email" placeholder="邮箱或ID" /></div>
+            <div class="typein"><input type="password" placeholder="密码" name="password" id="password" /></div>
+            <div class="typein"><input type="password" name="confirm_password" id="confirm_password" placeholder="确认密码"  /></div>
+            <button type="submit" onClick="register_check()" id="register_button">创建账户</button>
+            <p class="mb0">点击注册，即表示您同意我们的
+                <a href="terms.html">
+                    《服务条款》
+                </a>
+                	和
+                <a href="privacy.html">
+                    《隐私政策》
+                </a>。
+            </p>
+        </div> 
+    </div>   
 </body>
 <script type="text/javascript">
     $(window).ready(function(){	

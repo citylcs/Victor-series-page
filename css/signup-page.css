@@ -5,13 +5,9 @@
 		body{
 			margin: 0;
 			padding: 0;
-			height: 900px;
+			height: 930px;
 		}
 /*------------------------------top glass------------------------------*/
-		.wrap{
-			height: 900px;
-			width: 100%;
-		}
 		.glass{
 			background: url(../img/morig.png);
 			background-size: cover;
@@ -82,12 +78,17 @@
 	    	top: 40px;
 	    }
 /*------------------------------sign up------------------------------*/
+		.container{
+			height: 650px;
+			width: 100%;
+		}
 		.signUp{
 			border: 1px solid #f2f2f2;
 			border-radius: 8px;
-			height: 450px;
+			min-height: 50%;
+			max-height: 80%;
 			margin: 0 auto;
-			top: -659px;
+			top: 200px;
 			position: relative;
 			width: 555px;
 		}
@@ -204,7 +205,7 @@
 		@media screen and (max-width:780px){
 			.signUp{
 				position: relative;
-				top: -480px;
+				top: 70px;
 			}
 			.signUp,#register_email,#password,#confirm_password,#register_button{
 				width: 90%;
@@ -212,13 +213,18 @@
 			#register_button{
 				left: 15px;
 			}
-			.wrap,body{
-				height: 550px;
+			.mb0{
+				margin: 20px;
 			}
-			.uppercase,.mb0{
-				line-height: 32px;
+		}
+		@media screen and (max-width:650px){
+			.uppercase{
+				font: 28px/40px 'PingFang SC Light';
+			}
+			#register_email,#password,#confirm_password{
+				height: 40px;
 			}
 			.mb0{
-				margin: 7px;
+				font: bold 14px/30px 'PingFang SC Light';
 			}
 		}
