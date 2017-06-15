@@ -227,4 +227,7 @@
 			.mb0{
 				font: bold 14px/30px 'PingFang SC Light';
 			}
+			body,.container{
+				height: 568px;
+			}
 		}
