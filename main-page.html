@@ -76,7 +76,8 @@
 		</div>
 	</header>
 	<div class="mtop">
-		<div class="bkgi" data-parallax="scroll" data-image-src="img/mori.jpg" data-speed="0.5" ></div>
+		<!--<div class="bkgi" data-parallax="scroll" data-image-src="img/mori.jpg" data-speed="0.5" ></div>-->
+		<video id="autoplay" autoplay loop src="https://at-v3-prod.s3.amazonaws.com/assets/projects/work/emmit/video.mp4"></video>
 		<div class="top">
 			<div class="mainText">
 				<h2>心无阻，跅弛不羁</h2>
@@ -195,7 +196,6 @@
 </body>
 <script type="text/javascript">
 	$(window).ready(function(){
-		$('.bkgi').parallax({imageSrc: 'img/mori.jpg'});
 		$('.pt').parallax({imageSrc: 'img/platforms.jpg'});
 		$('.mr').parallax({imageSrc: 'img/morif.jpg'});
 		// dropdown hover
