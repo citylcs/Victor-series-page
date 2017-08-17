@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6a2427b-5ee7-4243-a7dc-8163ec5adf77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-page-en.css" afterPath="$PROJECT_DIR$/css/main-page-en.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/main-page-en.html" afterPath="$PROJECT_DIR$/en/main-page-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/main-page-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/main-page-trzh.html" />
-    </list>
+    <list default="true" id="d6a2427b-5ee7-4243-a7dc-8163ec5adf77" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-page-trzh.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main-page-trzh.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tr_zh/main-page-trzh.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -57,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-page-en.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main-page-en.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en/main-page-en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+            <state relative-caret-position="30">
+              <caret line="58" column="120" lean-forward="false" selection-start-line="58" selection-start-column="120" selection-end-line="58" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -70,7 +66,7 @@
       <file leaf-file-name="main-page-en.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main-page-en.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="8278">
               <caret line="476" column="31" lean-forward="false" selection-start-line="476" selection-start-column="31" selection-end-line="476" selection-end-column="31" />
               <folding />
             </state>
@@ -590,12 +586,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502955259580</updated>
-      <workItem from="1502955260925" duration="3906000" />
+      <workItem from="1502955260925" duration="4107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3906000" />
+    <option name="totallyTimeSpent" value="4107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="102" y="71" width="1686" height="906" extended-state="0" />
@@ -674,9 +670,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tr_zh/main-page-trzh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main-page-en.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="8278">
           <caret line="476" column="31" lean-forward="false" selection-start-line="476" selection-start-column="31" selection-end-line="476" selection-end-column="31" />
           <folding />
         </state>
@@ -684,16 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/en/main-page-en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tr_zh/main-page-trzh.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="30">
+          <caret line="58" column="120" lean-forward="false" selection-start-line="58" selection-start-column="120" selection-end-line="58" selection-end-column="120" />
           <folding />
         </state>
       </provider>
