@@ -263,9 +263,8 @@
 			width: 100%;
 		}
 		.mr{
-			background: cover;
 			background: rgba(0,0,0,0.3);
-			bottom: 0px;
+			bottom: 0;
 			height: 260px;
 			position: absolute;
 			width: 100%;

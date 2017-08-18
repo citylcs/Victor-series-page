@@ -214,8 +214,8 @@
 			$(this).stop(true,true).fadeIn('fast'); 
 		},function(){ 
 			$(this).addClass("hover0"); 
-			var menu_hover = $(this).parent().children(".dropdown-toggle"); 
-			var drop_box = $(this); 
+			let menu_hover = $(this).parent().children(".dropdown-toggle");
+			let drop_box = $(this);
 			setTimeout(function(){ 
 			if(menu_hover.hasClass("hover1")){
 				drop_box.stop(true,true).fadeOut('fast'); 
@@ -227,7 +227,7 @@
 			$(this).removeClass("hover1"); 
 			$(this).parent().children(".dropdown-menu").stop(true,true).fadeIn('fast'); 
 			},function(){ 
-				var drop_box2 = $(this).parent().children(".dropdown-menu"); 
+				let drop_box2 = $(this).parent().children(".dropdown-menu");
 					setTimeout(function() { 
 						if (drop_box2.hasClass("hover0")) {
 							drop_box2.stop(true,true).fadeOut('fast'); 
@@ -237,15 +237,15 @@
 					$(this).addClass("hover1");	
 			});
 			// top menu event
-				var windowHeight = $(window).height();
+                let top = $('.topRight');
+				let windowHeight = $(window).height();
 					$(window).scroll(function(){
-				var distance = windowHeight - $(window).scrollTop();
+				let distance = windowHeight - $(window).scrollTop();
 					if(distance < 200){
-						$('.topRight').css("background-color","#333");
-						$('.topRight').css("position","fixed");
+                        top.css({'position':'fixed','top':'0'});
 					}
 					else{
-						$('.topRight').css("position","absolute");
+                        top.css({'position':'absolute','top':'0'});
 					}
 				});
 			// media query slide event
