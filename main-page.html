@@ -10,7 +10,6 @@
     <script src = "js/jquery-1.11.0.min.js"></script>
     <script src = "js/bootstrap.min.js"></script>
     <script src="js/parallax.js"></script>
-	<script src="js/loading.js"></script>
 	<meta charset="utf-8" />
 	<link rel="shortcut icon" type="image/x-icon" href="img/logo-dark.ico" media="screen" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -18,10 +17,11 @@
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="css/main-page.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-	<title>Vitctor跨域网络优化服务 - 科学上网</title>
-
+    <link rel="stylesheet" href="css/loading.css">
+    <title>Vitctor跨域网络优化服务 - 科学上网</title>
 </head>
 <body>
+    <div id="loadingDiv"><div class = "loader" ></div></div>
 	<a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
 	<div class="slideEvent">
 		<nav class="media_q">
@@ -197,6 +197,13 @@
 	</div>
 </body>
 <script type="text/javascript">
+    document.onreadystatechange = completeLoading;
+    function completeLoading() {
+        if (document.readyState === "complete") {
+            let loadingMask = $('#loadingDiv');
+            loadingMask.fadeOut('fast');
+        }
+    }
 	$(window).ready(function(){
         $('.bkgi').parallax({imageSrc: 'img/mori.jpg'});
 		$('.pt').parallax({imageSrc: 'img/platforms.jpg'});
@@ -254,7 +261,7 @@
 			});
 			$('#hs1').click(function(){
 				$('#mq_hide2').slideToggle(200);
-			});	
+			});
 	});
 </script>
 </html>
