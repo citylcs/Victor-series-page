@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6a2427b-5ee7-4243-a7dc-8163ec5adf77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/loading.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/loadding.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-page.css" afterPath="$PROJECT_DIR$/css/main-page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download-page.html" afterPath="$PROJECT_DIR$/download-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/contact-en.html" afterPath="$PROJECT_DIR$/en/contact-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/download-page-en.html" afterPath="$PROJECT_DIR$/en/download-page-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/faq-en.html" afterPath="$PROJECT_DIR$/en/faq-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/mac_guide-en.html" afterPath="$PROJECT_DIR$/en/mac_guide-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/main-page-en.html" afterPath="$PROJECT_DIR$/en/main-page-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/plan-en.html" afterPath="$PROJECT_DIR$/en/plan-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/privacy-en.html" afterPath="$PROJECT_DIR$/en/privacy-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/sign in-page-en.html" afterPath="$PROJECT_DIR$/en/sign in-page-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/signup-page-en.html" afterPath="$PROJECT_DIR$/en/signup-page-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/terms-en.html" afterPath="$PROJECT_DIR$/en/terms-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/windows_guide-en.html" afterPath="$PROJECT_DIR$/en/windows_guide-en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/loading.js" afterPath="$PROJECT_DIR$/js/loading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mac_guide.html" afterPath="$PROJECT_DIR$/mac_guide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-page.html" afterPath="$PROJECT_DIR$/main-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan.html" afterPath="$PROJECT_DIR$/plan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/privacy.html" afterPath="$PROJECT_DIR$/privacy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sign in-page.html" afterPath="$PROJECT_DIR$/sign in-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup-page.html" afterPath="$PROJECT_DIR$/signup-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/terms.html" afterPath="$PROJECT_DIR$/terms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/contact-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/contact-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/download-page-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/download-page-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/faq-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/faq-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/mac_guide-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/mac_guide-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/main-page-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/main-page-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/plan-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/plan-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/privacy-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/privacy-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/sign in-page-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/sign in-page-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/signup-page-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/signup-page-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/terms-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/terms-trzh.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tr_zh/windows_guide-trzh.html" afterPath="$PROJECT_DIR$/tr_zh/windows_guide-trzh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/windows_guide.html" afterPath="$PROJECT_DIR$/windows_guide.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,26 +15,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="download-page-en.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en/download-page-en.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq-en.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en/faq-en.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mac_guide-en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/mac_guide-en.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,11 +87,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows_guide-en.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="windows_guide-en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/windows_guide-en.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="windows_guide.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/windows_guide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="windows_guide-trzh.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tr_zh/windows_guide-trzh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -208,7 +171,6 @@
         <option value="$PROJECT_DIR$/tr_zh/sign in-page-trzh.html" />
         <option value="$PROJECT_DIR$/tr_zh/signup-page-trzh.html" />
         <option value="$PROJECT_DIR$/tr_zh/terms-trzh.html" />
-        <option value="$PROJECT_DIR$/tr_zh/windows_guide-trzh.html" />
         <option value="$PROJECT_DIR$/en/contact-en.html" />
         <option value="$PROJECT_DIR$/en/download-page-en.html" />
         <option value="$PROJECT_DIR$/en/faq-en.html" />
@@ -220,6 +182,7 @@
         <option value="$PROJECT_DIR$/en/signup-page-en.html" />
         <option value="$PROJECT_DIR$/en/terms-en.html" />
         <option value="$PROJECT_DIR$/en/windows_guide-en.html" />
+        <option value="$PROJECT_DIR$/tr_zh/windows_guide-trzh.html" />
       </list>
     </option>
   </component>
@@ -230,7 +193,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
+    <option name="x" value="390" />
     <option name="y" value="23" />
     <option name="width" value="1686" />
     <option name="height" value="976" />
@@ -265,6 +228,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tr_zh" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -730,16 +707,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502955259580</updated>
-      <workItem from="1502955260925" duration="12808000" />
+      <workItem from="1502955260925" duration="13134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12808000" />
+    <option name="totallyTimeSpent" value="13134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="23" width="1686" height="976" extended-state="0" />
-    <editor active="true" />
+    <frame x="390" y="23" width="1686" height="976" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -755,7 +731,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2271649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2271649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -917,14 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/windows_guide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tr_zh/contact-trzh.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -985,14 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tr_zh/windows_guide-trzh.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1115,6 +1075,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/windows_guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tr_zh/windows_guide-trzh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
           <folding />
         </state>
       </provider>
