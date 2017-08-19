@@ -98,7 +98,7 @@
 					<h1>1. What's the difference between Victor and other VPN / proxy services?</h1>
 					<p>Unlike the VPN services that use open source solutions, Victor uses an exclusive Smart Tunnel technology that avoids third-party interference and ensures a good speed and stability.</p>
 				</section>
-					<div class="switch1">
+					<div id="oAjax">
 						<section>
 							<h1>2. Does not work on computer?</h1>
 							<p>
@@ -131,25 +131,6 @@
 							<p>If the Victor client pops up "Missing core application files", this means some program files have been deleted by anti-virus software. You will need to reinstall Victor.</p>
 						</section>
 					</div>
-					<div class="switch2">
-						<section>
-							<h1>2. Speed is slow?</h1>
-							<p>When installing the VPN profile file to your phone, Victor automatically selects a server with optimum speed. But the default server may not suit for your network all the time. In this case, you can try to switch to another server and reconnect.</p>
-							<p>Due to the iOs system requirements, you need to reinstall the VPN profile everytime after changing server.</p>
-						</section>
-						<section>
-							<h1>3. Cannot connect?</h1>
-							<p>Connection failure may caused by temporary server or network communication issue. Please wait for a while and try again. Or try to connect your device to another network, such as switch between 4G and WiFi.</p>
-						</section>
-						<section>
-							<h1>4. Accessing some domestic sites becomes slow?</h1>
-							<p>We're still refining the Smart Tunnel technology. Sometimes, some domestic websites may be recognized as oversea websites. You can try to refresh or disconnect in Victor. Reconnect when you need to visit oversea websites. We will continue to improve the technology and enhance the service experience.</p>
-						</section>
-						<section>
-							<h1>5. After running Victor on Android, some sites still cannot be loaded?</h1>
-							<p>Due to some particular specifications of Android, the default "Regional" connection mode may not able to cover all sites. Therefore, you can switch between the "Regional" and "Global" mode in the Connection Settings according to your situation.</p>
-						</section>
-					</div>
 				<section>
 					<h1>6. Change server location?</h1>
 					<p>Victor provides service locations (also known as nodes), such as Japan (Japan), US (United States), which ensures good access speed in different regions. If you feel slow when visiting some sites, please connect to another server. </p>
@@ -167,15 +148,17 @@
 		</div>
 	</div>
 	<footer class="foot">
-		<div class="mr" data-parallax="scroll" data-image-src="../img/bookf.jpg" data-speed="0.5"></div>
-		<ul class="service">
-			<li><a href="contact-en.html">Contact</a></li>
-			<li><a href="terms-en.html">Terms</a></li>
-			<li><a href="privacy-en.html">Privacy</a></li>
-		</ul>
-		<div class="footer">
-			<p class="mfoot">Handcrafted by Victor © 2017</p>
-		</div>
+		<div id="smoke">
+			<div class="mr""></div>
+			<ul class="service">
+				<li><a href="contact-en.html">Contact</a></li>
+				<li><a href="terms-en.html">Terms</a></li>
+				<li><a href="privacy-en.html">Privacy</a></li>
+			</ul>
+            <div class="footer">
+                <p class="mfoot">Handcrafted by Victor © 2017</p>
+            </div>
+        </div>
 	</footer>
 </body>
 <script type="text/javascript">
@@ -233,24 +216,33 @@
 			});
 			$('#hs1').click(function(){
 				$('#mq_hide2').slideToggle(200);
-			});	
-			// switch event
-			$('.two').click(function()
-			{
-				$('.switch1').css("display","none");
-				$('.fa-desktop').css("color","#888");
-				$('.switch2').css("display","block");
-				$('.fa-mobile-phone').css("color","#333");
-				$('#down').css("padding-bottom","550px");
-
 			});
-			$('.one').click(function()
-			{
-				$('.switch1').css("display","block");
-				$('.switch2').css("display","none");
-				$('.fa-mobile-phone').css("color","#888");
-				$('.fa-desktop').css("color","#333");
-			});	
+        //ajax
+        let oAjax = $('#oAjax');
+        $('.two').click(function () {
+            $.ajax({
+                url: '../txt/mobile-en.txt',
+                type: 'GET',
+                success:function (data) {
+                    oAjax.html(data);
+                    $('.two i').css({'color':'#333'});
+                    $('.one i').css({'color':'#888'});
+                    console.log('switch on mobile phone');
+                }
+            })
+        });
+        $('.one').click(function () {
+            $.ajax({
+                url: '../txt/pc-en.txt',
+                type: 'GET',
+                success:function (data) {
+                    oAjax.html(data);
+                    $('.one i').css({'color':'#333'});
+                    $('.two i').css({'color':'#888'});
+                    console.log('switch on PC');
+                }
+            })
+        })
 	});
 </script>
 </html>

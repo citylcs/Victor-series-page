@@ -1,0 +1,17 @@
+<section>
+    <h1>2. Speed is slow?</h1>
+    <p>When installing the VPN profile file to your phone, Victor automatically selects a server with optimum speed. But the default server may not suit for your network all the time. In this case, you can try to switch to another server and reconnect.</p>
+    <p>Due to the iOs system requirements, you need to reinstall the VPN profile everytime after changing server.</p>
+</section>
+<section>
+    <h1>3. Cannot connect?</h1>
+    <p>Connection failure may caused by temporary server or network communication issue. Please wait for a while and try again. Or try to connect your device to another network, such as switch between 4G and WiFi.</p>
+</section>
+<section>
+    <h1>4. Accessing some domestic sites becomes slow?</h1>
+    <p>We're still refining the Smart Tunnel technology. Sometimes, some domestic websites may be recognized as oversea websites. You can try to refresh or disconnect in Victor. Reconnect when you need to visit oversea websites. We will continue to improve the technology and enhance the service experience.</p>
+</section>
+<section>
+    <h1>5. After running Victor on Android, some sites still cannot be loaded?</h1>
+    <p>Due to some particular specifications of Android, the default "Regional" connection mode may not able to cover all sites. Therefore, you can switch between the "Regional" and "Global" mode in the Connection Settings according to your situation.</p>
+</section>

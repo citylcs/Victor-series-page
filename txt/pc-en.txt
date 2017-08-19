@@ -1,0 +1,31 @@
+<section>
+    <h1>2. Does not work on computer?</h1>
+    <p>
+        Please check: <br/>
+        1) Whether your account status shows “normal”. Account status can be found either on the Victor client window or your account webpage.<br/>
+        2) The Victor client is running properly on your computer.<br/>
+        3) Your browser has been properly configured according to the "Setup Guide".<br/>
+        4) If Victor client has been blocked by the computer firewall. If yes, please add Victor to the white-list or try to reinstall.<br/>
+    </p>
+</section>
+<section>
+    <h1>3. Cannot load any webpage on computer?</h1>
+    <p>Both the Victor computer client and your browser need to be configured properly at the same time. Please check your configuration according to the "Setup Guide".</p>
+    <p>If you have quited the Victor computer client, you also need to tick off the "Victor" proxy on your browser. When you run Victor again, remember also to tick on the "Victor" proxy on your browser.</p>
+    <p>If you are using other reverse proxy service, for example, Unblock Youku, please also stop it.</p>
+</section>
+<section>
+    <h1>4. Cannot open webpage after uninstalling Victor?</h1>
+    <p>
+        If you have uninstalled Victor, please restore the browser default settings by the following instructions: <br/>
+        1) Chrome: Click the earth icon on upper right of the menu bar, select "Connect directly".<br/>
+        2) Firefox: Click on the menu button, go to "Preferences" > "Advanced" > "Network" > "Connection <br/>
+        3) 360 browser: same as Chrome <br/>
+        4) Dropbox：Go to "Proxies" in the client Settings, select "No proxy".<br/>
+    </p>
+</section>
+<section>
+    <h1>5. Anti-virus software detectes Victor as a virus?</h1>
+    <p>Some anti-virus software may over-sensitively detects Victor as a virus. In this case, please give permission to Victor, or add Victor to the white-list. </p>
+    <p>If the Victor client pops up "Missing core application files", this means some program files have been deleted by anti-virus software. You will need to reinstall Victor.</p>
+</section>
