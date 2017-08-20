@@ -19,6 +19,7 @@
   	<title>註冊</title>
     <link rel="stylesheet" href="../css/loading.css">
     <script src="../js/loading.js"></script>
+    <script src="../js/sign-up.js"></script>
 </head>
 <body>
     <a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
@@ -56,25 +57,25 @@
   			</div>
   			<div class="dropdown" id="dropdown1">
   				  <ul>
-      					<li class="hx"><a href="plan-trzh.html">套餐</a></li>
-      					<li class="hx"><a href="download-page-trzh.html">下載</a></li>
-      					<li class="hx">
-  						      <a id="help" role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >幫助&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a> 
-  						          <ul class="dropdown-menu hover0" id="box1" role="menu" aria-labelledby="drop1">
-              							<li><a href="faq-trzh.html">常見問題</a></li>
-              							<li><a href="mac_guide-trzh.html">Mac設置指南</a></li>
-              							<li><a href="windows_guide-trzh.html">Windows設置指南</a></li>
-  						          </ul>
-                </li>
-      					<li class="hx"><a href="sign in-page-trzh.html">登入</a></li>
-      					<li class="hx"><a href="signup-page-trzh.html">註冊</a></li>
-      					<li class="hx">
-        						<a role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >中文（繁體）&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
-        						    <ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
-              							<li><a href="../en/signup-page-en.html">English</a></li>
-              							<li><a href="../signup-page.html">中文（簡體）</a></li>
-  						          </ul>
-                </li>
+                      <li class="hx"><a href="plan-trzh.html">套餐</a></li>
+                      <li class="hx"><a href="download-page-trzh.html">下載</a></li>
+                      <li class="hx">
+                          <a id="help" role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >幫助&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
+                          <ul class="dropdown-menu hover0" id="box1" role="menu" aria-labelledby="drop1">
+                              <li><a href="faq-trzh.html">常見問題</a></li>
+                              <li><a href="mac_guide-trzh.html">Mac設置指南</a></li>
+                              <li><a href="windows_guide-trzh.html">Windows設置指南</a></li>
+                          </ul>
+                      </li>
+                      <li class="hx"><a href="sign in-page-trzh.html">登入</a></li>
+                      <li class="hx"><a href="signup-page-trzh.html">註冊</a></li>
+                      <li class="hx">
+                          <a role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >中文（繁體）&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
+                          <ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
+                              <li><a href="../en/signup-page-en.html">English</a></li>
+                              <li><a href="../signup-page.html">中文（簡體）</a></li>
+                          </ul>
+                      </li>
   				  </ul>
   			</div>
 	  </div>
@@ -98,65 +99,19 @@
         </div>   
     </div> 
 </body>
-<script type="text/javascript">
-    $(window).ready(function(){ 
-        // dropdown hover
-        $(".dropdown-menu").hover(function(){
-            $(this).removeClass("hover0"); 
-            $(this).stop(true,true).fadeIn('fast'); 
-        },function(){ 
-            $(this).addClass("hover0"); 
-            var menu_hover = $(this).parent().children(".dropdown-toggle"); 
-            var drop_box = $(this); 
-            setTimeout(function(){ 
-            if(menu_hover.hasClass("hover1")){
-                drop_box.stop(true,true).fadeOut('fast'); 
-            }
-            else{} 
-            },100); 
-        }); 
-        $(".dropdown-toggle").hover(function(){
-            $(this).removeClass("hover1"); 
-            $(this).parent().children(".dropdown-menu").stop(true,true).fadeIn('fast'); 
-            },function(){ 
-                var drop_box2 = $(this).parent().children(".dropdown-menu"); 
-                    setTimeout(function() { 
-                        if (drop_box2.hasClass("hover0")) {
-                            drop_box2.stop(true,true).fadeOut('fast'); 
-                        }
-                        else{} 
-                        },100); 
-                    $(this).addClass("hover1"); 
-            });
-        // media query slide event
-        $('.touch_bar').click(function(){
-            $('.slideEvent').slideToggle(200);
-            $('.slideEvent').css("position","fixed");
-        });
-        $('.touch_bar').click(function(){
-          $('.touch_bar').toggleClass("touch_bar1");
-        });
-        $('#hs').click(function(){
-          $('#mq_hide').slideToggle(200);
-        });
-        $('#hs1').click(function(){
-          $('#mq_hide2').slideToggle(200);
-        });
-    });
-</script>
-<script type="text/javascript">
+<script>
     function register_check(){
-        var reg_mail = document.getElementById("register_email").value;
-        var pwd = document.getElementById("password").value;
-        var confirm_pwd = document.getElementById("confirm_password").value;
-        var NONE_PWD = "密碼不能為空";
-        var NONE_NEW_PWD = "新密碼不能為空";
-        var PWD_LESS_6 = "密碼不能少於六位";
-        var MISMACTH_PWD = "兩次輸入的密碼不一致";
-        var NONE_USER = "郵箱不能為空";
-        var WRONG_PWD = "密碼錯誤";
-        var CORRECT_EMAIL = "請輸入正確格式的郵箱";
-if(reg_mail == '')
+        let reg_mail = document.getElementById("register_email").value;
+        let pwd = document.getElementById("password").value;
+        let confirm_pwd = document.getElementById("confirm_password").value;
+        let NONE_PWD = "密碼不能為空";
+        let NONE_NEW_PWD = "新密碼不能為空";
+        let PWD_LESS_6 = "密碼不能少於六位";
+        let MISMACTH_PWD = "兩次輸入的密碼不一致";
+        let NONE_USER = "郵箱不能為空";
+        let WRONG_PWD = "密碼錯誤";
+        let CORRECT_EMAIL = "請輸入正確格式的郵箱";
+        if(reg_mail === '')
           {
             $("#error_display").html(NONE_USER);
             $("#error_display").removeClass("hide");
@@ -182,7 +137,7 @@ if(reg_mail == '')
             $("#invite_email").css('background-color','');
             return false;
            }
-        else if(pwd == '')
+        else if(pwd === '')
           {
             $("#register_email").css('background-color','');
             $("#error_display").html(NONE_PWD);
@@ -208,7 +163,7 @@ if(reg_mail == '')
             $("#invite_email").css('background-color','');
             return false;
           }
-        else if(confirm_pwd != pwd)
+        else if(confirm_pwd !== pwd)
           {
             $("#error_display").html(MISMACTH_PWD);
             $("#new_password").css('background-color','');

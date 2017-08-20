@@ -16,9 +16,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="../img/logo-dark.ico" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/signup-page.css" />
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
-    <title>註冊</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="../css/loading.css">
     <script src="../js/loading.js"></script>
+    <script src="../js/sign-up.js"></script>
 </head>
 <body>
     <a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
@@ -70,10 +71,10 @@
                 <li class="hx"><a href="signup-page-en.html">Sign Up</a></li>
                 <li class="hx">
                     <a role="button" class="dropdown-toggle hover1" data-toggle="dropdown" >English&nbsp;&nbsp;<i class="fa fa-angle-down fa-1x"></i></a>
-                        <ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
-                            <li><a href="../signup-page.html">中文（简体）</a></li>
-                            <li><a href="../tr_zh/signup-page-trzh.html">中文（繁體）</a></li>
-                        </ul>
+                    <ul class="dropdown-menu hover0" id="box2" role="menu" aria-labelledby="drop1">
+                        <li><a href="../signup-page.html">中文（简体）</a></li>
+                        <li><a href="../tr_zh/signup-page-trzh.html">中文（繁體）</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
@@ -98,65 +99,19 @@
         </div>
     </div>    
 </body>
-<script type="text/javascript">
-    $(window).ready(function(){
-        // dropdown hover
-        $(".dropdown-menu").hover(function(){
-            $(this).removeClass("hover0"); 
-            $(this).stop(true,true).fadeIn('fast'); 
-        },function(){ 
-            $(this).addClass("hover0"); 
-            var menu_hover = $(this).parent().children(".dropdown-toggle"); 
-            var drop_box = $(this); 
-            setTimeout(function(){ 
-            if(menu_hover.hasClass("hover1")){
-                drop_box.stop(true,true).fadeOut('fast'); 
-            }
-            else{} 
-            },100); 
-        }); 
-        $(".dropdown-toggle").hover(function(){
-            $(this).removeClass("hover1"); 
-            $(this).parent().children(".dropdown-menu").stop(true,true).fadeIn('fast'); 
-            },function(){ 
-                var drop_box2 = $(this).parent().children(".dropdown-menu"); 
-                    setTimeout(function() { 
-                        if (drop_box2.hasClass("hover0")) {
-                            drop_box2.stop(true,true).fadeOut('fast'); 
-                        }
-                        else{} 
-                        },100); 
-                    $(this).addClass("hover1"); 
-            });
-            // media query slide event
-            $('.touch_bar').click(function(){
-                $('.slideEvent').slideToggle(200);
-                $('.slideEvent').css("position","fixed");
-            });
-            $('.touch_bar').click(function(){
-                $('.touch_bar').toggleClass("touch_bar1");
-            });
-            $('#hs').click(function(){
-                $('#mq_hide').slideToggle(200);
-            });
-            $('#hs1').click(function(){
-                $('#mq_hide2').slideToggle(200);
-            }); 
-    });
-</script>
-<script type="text/javascript">
+<script>
     function register_check(){
-        var reg_mail = document.getElementById("register_email").value;
-        var pwd = document.getElementById("password").value;
-        var confirm_pwd = document.getElementById("confirm_password").value;
-        var NONE_PWD = "Password cannot be empty";
-        var NONE_NEW_PWD = "New password cannot be empty";
-        var PWD_LESS_6 = "Password cannot be less than 6 characters";
-        var MISMACTH_PWD = "Two passwords do not match";
-        var NONE_USER = "Email cannot be empty";
-        var WRONG_PWD = "Incorrect email or password";
-        var CORRECT_EMAIL = "Please enter a valid email address";
-if(reg_mail == '')
+        let reg_mail = document.getElementById("register_email").value;
+        let pwd = document.getElementById("password").value;
+        let confirm_pwd = document.getElementById("confirm_password").value;
+        let NONE_PWD = "Password cannot be empty";
+        let NONE_NEW_PWD = "New password cannot be empty";
+        let PWD_LESS_6 = "Password cannot be less than 6 characters";
+        let MISMACTH_PWD = "Two passwords do not match";
+        let NONE_USER = "Email cannot be empty";
+        let WRONG_PWD = "Incorrect email or password";
+        let CORRECT_EMAIL = "Please enter a valid email address";
+        if(reg_mail === '')
           {
             $("#error_display").html(NONE_USER);
             $("#error_display").removeClass("hide");
@@ -182,7 +137,7 @@ if(reg_mail == '')
             $("#invite_email").css('background-color','');
             return false;
            }
-        else if(pwd == '')
+        else if(pwd === '')
           {
             $("#register_email").css('background-color','');
             $("#error_display").html(NONE_PWD);
@@ -208,7 +163,7 @@ if(reg_mail == '')
             $("#invite_email").css('background-color','');
             return false;
           }
-        else if(confirm_pwd != pwd)
+        else if(confirm_pwd !== pwd)
           {
             $("#error_display").html(MISMACTH_PWD);
             $("#new_password").css('background-color','');

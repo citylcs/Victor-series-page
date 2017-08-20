@@ -19,6 +19,7 @@
 	<title>Sign In</title>
 	<link rel="stylesheet" href="../css/loading.css">
 	<script src="../js/loading.js"></script>
+	<script src="../js/sign-in.js"></script>
 </head>
 <body>
 	<a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
@@ -97,60 +98,14 @@
     	</div>
     </div>
 </body>
-<script type="text/javascript">
-	$(window).ready(function(){
-		// dropdown hover
-		$(".dropdown-menu").hover(function(){
-			$(this).removeClass("hover0"); 
-			$(this).stop(true,true).fadeIn('fast'); 
-		},function(){ 
-			$(this).addClass("hover0"); 
-			var menu_hover = $(this).parent().children(".dropdown-toggle"); 
-			var drop_box = $(this); 
-			setTimeout(function(){ 
-			if(menu_hover.hasClass("hover1")){
-				drop_box.stop(true,true).fadeOut('fast'); 
-			}
-			else{} 
-			},100); 
-		}); 
-		$(".dropdown-toggle").hover(function(){
-			$(this).removeClass("hover1"); 
-			$(this).parent().children(".dropdown-menu").stop(true,true).fadeIn('fast'); 
-			},function(){ 
-				var drop_box2 = $(this).parent().children(".dropdown-menu"); 
-					setTimeout(function() { 
-						if (drop_box2.hasClass("hover0")) {
-							drop_box2.stop(true,true).fadeOut('fast'); 
-						}
-						else{} 
-			     		},100); 
-					$(this).addClass("hover1");	
-			});
-			// media query slide event
-			$('.touch_bar').click(function(){
-				$('.slideEvent').slideToggle(200);
-				$('.slideEvent').css("position","fixed");
-			});
-			$('.touch_bar').click(function(){
-				$('.touch_bar').toggleClass("touch_bar1");
-			});
-			$('#hs').click(function(){
-				$('#mq_hide').slideToggle(200);
-			});
-			$('#hs1').click(function(){
-				$('#mq_hide2').slideToggle(200);
-			});	
-	});
-</script>
-<script type="text/javascript">
+<script>
     function check()
         {
-        var ema = document.getElementById("email").value;
-        var pwd = document.getElementById("password").value;
-        var NONE_PWD = "Password cannot be empty";
-        var NONE_USER = "Email cannot be empty";
-        if(ema == '')
+        let ema = document.getElementById("email").value;
+        let pwd = document.getElementById("password").value;
+        let NONE_PWD = "Password cannot be empty";
+        let NONE_USER = "Email cannot be empty";
+        if(ema === '')
            {
             $("#error_display").html(NONE_USER);
             $("#error_display").removeClass("hide");
@@ -161,7 +116,7 @@
             $("#password").css('background-color','')
             return false;
            }
-          else if(pwd == '')
+          else if(pwd === '')
            {
             $("#email").css('background-color','')
             $("#error_display").html(NONE_PWD)

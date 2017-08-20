@@ -20,6 +20,7 @@
 	<title>Windows Setup Guide</title>
 	<link rel="stylesheet" href="../css/loading.css">
 	<script src="../js/loading.js"></script>
+	<script src="../js/general.js"></script>
 </head>
 <body>
 	<a href="###" class="touch_bar" ><i class="fa fa-bars fa-2x"></i></a>
@@ -114,62 +115,4 @@
 		</div>
 	</footer>
 </body>
-<script type="text/javascript">
-	$(window).ready(function(){
-		// dropdown hover
-		$(".dropdown-menu").hover(function(){
-			$(this).removeClass("hover0"); 
-			$(this).stop(true,true).fadeIn('fast'); 
-		},function(){ 
-			$(this).addClass("hover0"); 
-			var menu_hover = $(this).parent().children(".dropdown-toggle"); 
-			var drop_box = $(this); 
-			setTimeout(function(){ 
-			if(menu_hover.hasClass("hover1")){
-				drop_box.stop(true,true).fadeOut('fast'); 
-			}
-			else{} 
-			},100); 
-		}); 
-		$(".dropdown-toggle").hover(function(){
-			$(this).removeClass("hover1"); 
-			$(this).parent().children(".dropdown-menu").stop(true,true).fadeIn('fast'); 
-			},function(){ 
-				var drop_box2 = $(this).parent().children(".dropdown-menu"); 
-					setTimeout(function() { 
-						if (drop_box2.hasClass("hover0")) {
-							drop_box2.stop(true,true).fadeOut('fast'); 
-						}
-						else{} 
-			     		},100); 
-					$(this).addClass("hover1");	
-			});
-			// top menu event
-				var windowHeight = $(window).height();
-					$(window).scroll(function(){
-				var distance = windowHeight - $(window).scrollTop();
-					if(distance < 800){
-						$('.topRight').css("background-color","#333");
-						$('.topRight').css("position","fixed");
-					}
-					else{
-						$('.topRight').css("position","absolute");
-					}
-				});
-			// media query slide event
-			$('.touch_bar').click(function(){
-				$('.slideEvent').slideToggle(200);
-				$('.slideEvent').css("position","fixed");
-			});
-			$('.touch_bar').click(function(){
-				$('.touch_bar').toggleClass("touch_bar1");
-			});
-			$('#hs').click(function(){
-				$('#mq_hide').slideToggle(200);
-			});
-			$('#hs1').click(function(){
-				$('#mq_hide2').slideToggle(200);
-			});	
-	});
-</script>
 </html>
